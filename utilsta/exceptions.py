@@ -4,4 +4,3 @@ class AlreadyRunningError(Exception):
 
 class NoControllerConnectedError(Exception):
     pass
-
