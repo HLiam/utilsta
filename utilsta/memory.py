@@ -1,3 +1,12 @@
+# The content of this file is copied from https://github.com/tdamdouni/Pythonista/blob/master/memory/get_available_memory.py
+# This file is not finished yet (TODO).
+
+# https://gist.github.com/lukaskollmer/a09c0278d2d224b9f4839a895ebb9988
+
+# https://forum.omz-software.com/topic/3146/share-code-get-available-memory
+
+# http://stackoverflow.com/a/8540665/2513803
+
 from ctypes import c_uint, Structure, c_int, cdll, POINTER, sizeof, byref, c_void_p, cast
 
 import ui
@@ -78,4 +87,3 @@ def f():
     print('used:  ', mem_used)
     print('free:  ', mem_free)
     print('total: ', mem_total)
-
